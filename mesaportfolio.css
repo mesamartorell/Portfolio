@@ -1,0 +1,149 @@
+<!doctype css>
+
+body{
+	font-family:futura, arial, sans-serif;
+	color:rgb(0,0,0);
+	margin:0px; /*Gets rid of the natural margin around the browser window edges*/
+}
+
+#container{ /*A box that will contain the entire website for centering purposes*/
+	width:100%; /*The container will try to fill the entire browser window width*/
+	max-width:960px; /*the maximum width the container will grow to*/
+	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+	background-color:rgb(0,0,0);
+	padding:0px;
+	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+
+	display:flex;
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start; /*flex-start, flex-end, center, stretch, space-between, space around*/
+	align-items:stretch; /*flex-end, center, stretch, baseline*/
+}
+
+header{
+	font-family:simplifica, arial, sans-serif;
+	font-size:xx-large;
+	color:rgb(255,255,255);
+	width:100%;
+	background-color:rgb(0,0,0);
+	padding:50px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+}
+
+nav{
+	width:100%;
+	background-color:rgb(200,200,200);
+	margin:10px 0px;
+	padding:0px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+}
+nav ul{
+	font-family:futura, arial, sans-serif;
+	color:rgb(0,0,0);
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+nav ul li{
+	font-family:futura, arial, sans-serif;
+	color:rgb(0,0,0);
+	display:inline-block;
+	margin:0px 40px;
+	background-color:rgb(200,200,200);
+	padding:10px;
+}
+nav a{
+	text-decoration:none;
+}
+
+article{
+	font-family:futura, arial, sans-serif;
+	color:rgb(0,0,0);
+	width:100%;
+	background-color:rgb(200,200,200);
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+	/*The article needs its own flex properties since it contains sections 
+	which will be flexing*/
+	display:flex;
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start; /*flex-start, flex-end, center, stretch, space-between, space-around*/
+	align-items:stretch; /*flex-end, center, stretch, baseline*/
+}
+
+.fullwidth{
+	background-color:rgb(200,200,200);
+	margin:2%;
+	width:96%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.threequarterwidth{
+	background-color:rgb(200,200,200);
+	margin:2%;
+	width:71%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.halfwidth{
+	background-color:rgb(200,200,200);
+	margin:2%;
+	width:46%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.thirdwidth{
+	background-color:rgb(200,200,200);
+	margin:2%;
+	width:29.3333333%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.quarterwidth{
+	font-family:futura, arial, sans-serif;
+	color:rgb(0,0,0);
+	background-color:rgb(200,200,200);
+	margin:2%;
+	width:21%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.fifthwidth{
+	background-color:rgb(200,200,200);
+	margin:2%;
+	width:16%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.sixthwidth{
+	background-color:rgb(200,200,200);
+	margin:2%;
+	width:12.66666666%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+
+.eigthwidth{
+	background-color:rgb(200,200,200);
+	margin:2%;
+	width:8.5%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+img{
+	max-width:100%;
+}
