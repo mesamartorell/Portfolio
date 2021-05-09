@@ -6,6 +6,9 @@ body{
 	margin:0px; /*Gets rid of the natural margin around the browser window edges*/
 }
 
+body{
+	background-color:rgb(0,0,0);
+}
 
 #container{ /*A box that will contain the entire website for centering purposes*/
 	width:100%; /*The container will try to fill the entire browser window width*/
